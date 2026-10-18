@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="Alwaysdata Xray" width="460">
-</p>
-
-<p align="center">
   <b>Your own VLESS proxy on free hosting in a single command. No VPS, no payment card.</b>
 </p>
 
