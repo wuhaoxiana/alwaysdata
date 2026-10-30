@@ -66,7 +66,7 @@ Or install right on the server, no need to download this repository. Log in with
 `ssh <account>@ssh-<account>.alwaysdata.net` and run:
 
 ```bash
-cd ~ && { [ ! -e wuhaoxian ] || mv wuhaoxian wuhaoxian.old; } && { [ ! -e xray ] || mv xray xray.old; } && mkdir -p wuhaoxian && cd wuhaoxian && curl -fsSLO "https://raw.githubusercontent.com/wuhaoxiana/alwaysdata/main/{start,setup}.sh" && bash setup.sh
+cd ~ && { [ ! -e wuhaoxian ] || mv wuhaoxian wuhaoxian.old; } && mkdir -p wuhaoxian && cd wuhaoxian && curl -fsSLO "https://raw.githubusercontent.com/wuhaoxiana/alwaysdata/main/{start,setup}.sh" && bash setup.sh
 ```
 
 Either way, `start.sh` and `setup.sh` end up in `~/wuhaoxian`, the newest Xray is installed, the config is checked
