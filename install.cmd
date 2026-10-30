@@ -5,4 +5,4 @@ if "%~1"=="" (
 )
 cd /d "%~dp0"
 
-tar -cf - start.sh setup.sh | ssh %1 "cd ~ && { [ ! -e wuhaoxian ] || mv wuhaoxian wuhaoxian.old; } && { [ ! -e xray ] || mv xray xray.old; } && mkdir -p wuhaoxian && tar -xf - -C wuhaoxian --exclude='._*' --warning=no-unknown-keyword && bash wuhaoxian/setup.sh"
+tar -cf - start.sh setup.sh | ssh %1 "cd ~ && { [ ! -e wuhaoxian ] || mv wuhaoxian wuhaoxian.old; } && mkdir -p wuhaoxian && tar -xf - -C wuhaoxian --exclude='._*' --warning=no-unknown-keyword && bash wuhaoxian/setup.sh"
